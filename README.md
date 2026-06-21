@@ -64,5 +64,3 @@ Bob unlocks and reads the original file using his private key:
 python main.py decrypt --user bob --file document.txt.enc
 ```
 ```
-
-**Reply `DONE`** once you've added it to your `README.md` and committed the changes. I will wait for your confirmation before providing Step 7 (`main.py` upload).
