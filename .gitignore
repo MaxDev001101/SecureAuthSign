@@ -1,0 +1,24 @@
+# Python cache & env
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+
+# Runtime & Secrets (NEVER upload these)
+data/
+*.pem
+*.sig
+*.enc
+*.dec
+crl.json
+
+# Demo workspace
+tool-work/
+
+# OS/Editor files
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
