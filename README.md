@@ -63,3 +63,8 @@ Bob unlocks and reads the original file using his private key:
 ```bash
 python main.py decrypt --user bob --file document.txt.enc
 ```
+### Run Tests
+Validate security controls against simulated attacks:
+```bash
+python -m pytest tests/test_attacks.py -v
+```
